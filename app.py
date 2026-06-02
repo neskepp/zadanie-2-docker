@@ -8,7 +8,7 @@ PORT = 8080
 CITIES = {
     "Krakow": (50.0647, 19.9450),
     "Gdansk": (54.3520, 18.6466),
-    "Lublin": (51.2465, 22.5683),
+    "Lublin": (51.2465, 22.5684),
 }
 
 @app.route("/weather")
