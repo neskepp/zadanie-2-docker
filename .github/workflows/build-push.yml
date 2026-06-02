@@ -58,7 +58,7 @@ jobs:
           cache-from: type=registry,ref=mgodz/weather-app-cache:buildcache
 
       - name: Scan image with Trivy
-        uses: aquasecurity/trivy-action@0.28.0
+        uses: aquasecurity/trivy-action@master
         with:
           image-ref: weather-app:scan
           format: table
